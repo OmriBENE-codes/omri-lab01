@@ -10,3 +10,4 @@ def accept_matrix(matrix_num):
       matrix.append(row)
       return matrix, rows, cols
    
+accept_matrix(5)
