@@ -18,7 +18,7 @@ def run_command(command):
     except Exception:
         print(f'An unexpected error occured: {er}')
 
-command = ['ls', '/nonexistent-directory'] #Example of a command that will fail
+# command = ['ls', '/nonexistent-directory'] #Example of a command that will fail
 command = ['ls', 'C://Users//USER//Python//omri-lab01//Python//Subprocess']
 run_command(command)
 
